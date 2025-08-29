@@ -3,760 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terra Lumina - Energy-Abundant Cities for Human Flourishing</title>
-    <meta name="description" content="Building regenerative cities powered by infinite clean energy. Where 70% remains wilderness. €650M Series D opening. 18-22% IRR with radical transparency.">
-    
-    <!-- Open Graph / Social -->
-    <meta property="og:title" content="Terra Lumina - Where Paradise Meets Profit">
-    <meta property="og:description" content="2¢/kWh renewable energy enables actual paradise. Building the future of human habitation with 18-22% IRR.">
-    <meta property="og:image" content="https://terra.luminousdynamics.org/assets/og-image.jpg">
-    <meta property="og:url" content="https://terra.luminousdynamics.org">
-    <meta property="og:type" content="website">
-    
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Terra Lumina - Energy Changes Everything">
-    <meta name="twitter:description" content="Building cities where energy costs almost nothing. €650M Series D. Real numbers, radical transparency.">
-    
-    <!-- PWA -->
-    <link rel="manifest" href="/manifest.json">
-    <meta name="theme-color" content="#0A0E27">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    
-    <!-- Critical CSS -->
+    <title>Terra Lumina - €650M Series D | Energy-Abundant Cities</title>
+    <meta name="description" content="Building regenerative cities powered by Iceland's infinite geothermal energy. 18-22% IRR. €650M Series D opening Q1 2025.">
+    <link rel="manifest" href="manifest.json">
     <style>
-        /* Reset & Variables */
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        
         :root {
-            /* Colors - Energy & Nature Inspired */
-            --primary: #0066cc;
-            --secondary: #00a86b;
-            --accent: #ff6b35;
-            --midnight: #0A0E27;
-            --aurora-green: #10B981;
-            --aurora-teal: #14B8A6;
-            --glacier-blue: #60A5FA;
-            --volcanic-orange: #FB923C;
-            --geothermal-red: #EF4444;
-            --moss-green: #84CC16;
-            --slate: #64748B;
-            --white: #FFFFFF;
-            --off-white: #FAFAFA;
-            --light-gray: #F3F4F6;
-            --border: #E5E7EB;
-            
-            /* Typography */
-            --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            --text-xs: clamp(0.75rem, 1.5vw, 0.875rem);
-            --text-sm: clamp(0.875rem, 2vw, 1rem);
-            --text-base: clamp(1rem, 2.5vw, 1.125rem);
-            --text-lg: clamp(1.125rem, 3vw, 1.25rem);
-            --text-xl: clamp(1.25rem, 3.5vw, 1.5rem);
-            --text-2xl: clamp(1.5rem, 4vw, 1.875rem);
-            --text-3xl: clamp(1.875rem, 5vw, 2.25rem);
-            --text-4xl: clamp(2.25rem, 6vw, 3rem);
-            --text-5xl: clamp(3rem, 8vw, 3.75rem);
-            --text-6xl: clamp(3.75rem, 10vw, 4.5rem);
-            
-            /* Spacing */
-            --space-xs: 0.5rem;
-            --space-sm: 1rem;
-            --space-md: 1.5rem;
-            --space-lg: 2rem;
-            --space-xl: 3rem;
-            --space-2xl: 4rem;
-            --space-3xl: 6rem;
-            
-            /* Layout */
-            --max-width: 1280px;
-            --header-height: 72px;
+            --primary: #1a73e8;
+            --secondary: #00c853;
+            --dark: #0f172a;
+            --light: #f8fafc;
+            --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         }
         
-        /* Base Styles */
-        html {
-            scroll-behavior: smooth;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
         
         body {
-            font-family: var(--font-sans);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             line-height: 1.6;
-            color: var(--midnight);
-            background: var(--white);
-            overflow-x: hidden;
+            color: var(--dark);
         }
         
-        .container {
-            max-width: var(--max-width);
-            margin: 0 auto;
-            padding: 0 var(--space-lg);
-        }
-        
-        /* Navigation */
-        .header {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            height: var(--header-height);
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border-bottom: 1px solid var(--border);
-            z-index: 1000;
-            transition: all 0.3s ease;
-        }
-        
-        .header.scrolled {
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        }
-        
-        .nav {
-            height: 100%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .logo {
-            font-size: var(--text-xl);
-            font-weight: 800;
-            background: linear-gradient(135deg, var(--primary) 0%, var(--aurora-teal) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            text-decoration: none;
-        }
-        
-        .nav-links {
-            display: flex;
-            gap: var(--space-lg);
-            align-items: center;
-        }
-        
-        .nav-link {
-            color: var(--slate);
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.2s;
-        }
-        
-        .nav-link:hover {
-            color: var(--primary);
-        }
-        
-        .nav-cta {
-            background: var(--primary);
-            color: var(--white);
-            padding: var(--space-xs) var(--space-md);
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: all 0.3s;
-        }
-        
-        .nav-cta:hover {
-            background: var(--secondary);
-            transform: translateY(-2px);
-            box-shadow: 0 4px 20px rgba(0, 102, 204, 0.3);
-        }
-        
-        /* Hero Section */
         .hero {
             min-height: 100vh;
-            padding-top: calc(var(--header-height) + var(--space-3xl));
-            padding-bottom: var(--space-3xl);
-            background: linear-gradient(180deg, var(--off-white) 0%, var(--white) 100%);
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%230099ff" fill-opacity="0.3" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,133.3C672,139,768,181,864,181.3C960,181,1056,139,1152,117.3C1248,96,1344,96,1392,96L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>') center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
             position: relative;
-            overflow: hidden;
-        }
-        
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 100%;
-            background-image: 
-                radial-gradient(circle at 20% 50%, rgba(16, 185, 129, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 80% 80%, rgba(20, 184, 166, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 40% 20%, rgba(96, 165, 250, 0.1) 0%, transparent 50%);
-            pointer-events: none;
         }
         
         .hero-content {
-            position: relative;
-            z-index: 1;
-        }
-        
-        .hero-badge {
-            display: inline-block;
-            background: rgba(0, 102, 204, 0.1);
-            color: var(--primary);
-            padding: var(--space-xs) var(--space-sm);
-            border-radius: 100px;
-            font-size: var(--text-sm);
-            font-weight: 600;
-            margin-bottom: var(--space-md);
-        }
-        
-        .hero-title {
-            font-size: var(--text-6xl);
-            font-weight: 900;
-            line-height: 1.1;
-            margin-bottom: var(--space-lg);
-            background: linear-gradient(135deg, var(--midnight) 0%, var(--primary) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-        
-        .hero-subtitle {
-            font-size: var(--text-xl);
-            color: var(--slate);
-            margin-bottom: var(--space-xl);
             max-width: 800px;
-            line-height: 1.8;
+            padding: 2rem;
+            animation: fadeInUp 1s ease-out;
         }
         
-        /* Key Metrics */
-        .hero-metrics {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: var(--space-lg);
-            margin-bottom: var(--space-xl);
-            max-width: 600px;
-        }
-        
-        .metric {
-            background: var(--white);
-            padding: var(--space-md);
-            border-radius: 12px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-            transition: transform 0.3s;
-        }
-        
-        .metric:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
-        }
-        
-        .metric-value {
-            font-size: var(--text-3xl);
-            font-weight: 800;
-            color: var(--primary);
-            line-height: 1;
-        }
-        
-        .metric-label {
-            font-size: var(--text-sm);
-            color: var(--slate);
-            margin-top: var(--space-xs);
-        }
-        
-        /* Buttons */
-        .hero-actions {
-            display: flex;
-            gap: var(--space-md);
-            flex-wrap: wrap;
-        }
-        
-        .btn {
-            padding: var(--space-sm) var(--space-lg);
-            border-radius: 8px;
-            font-weight: 600;
-            text-decoration: none;
-            transition: all 0.3s;
-            display: inline-flex;
-            align-items: center;
-            gap: var(--space-xs);
-            font-size: var(--text-base);
-        }
-        
-        .btn-primary {
-            background: var(--primary);
-            color: var(--white);
-        }
-        
-        .btn-primary:hover {
-            background: var(--secondary);
-            transform: translateY(-2px);
-            box-shadow: 0 8px 30px rgba(0, 102, 204, 0.3);
-        }
-        
-        .btn-secondary {
-            background: var(--white);
-            color: var(--primary);
-            border: 2px solid var(--primary);
-        }
-        
-        .btn-secondary:hover {
-            background: var(--primary);
-            color: var(--white);
-        }
-        
-        /* Trust Indicators */
-        .trust-bar {
-            background: var(--white);
-            border-top: 1px solid var(--border);
-            border-bottom: 1px solid var(--border);
-            padding: var(--space-lg) 0;
-        }
-        
-        .trust-items {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: var(--space-lg);
-        }
-        
-        .trust-item {
-            display: flex;
-            align-items: center;
-            gap: var(--space-sm);
-            color: var(--slate);
-            font-size: var(--text-sm);
-        }
-        
-        .trust-icon {
-            width: 20px;
-            height: 20px;
-            fill: var(--secondary);
-        }
-        
-        /* Evidence Section */
-        .evidence {
-            padding: var(--space-3xl) 0;
-            background: var(--off-white);
-        }
-        
-        .section-header {
-            text-align: center;
-            margin-bottom: var(--space-3xl);
-        }
-        
-        .section-badge {
-            display: inline-block;
-            background: rgba(0, 168, 107, 0.1);
-            color: var(--secondary);
-            padding: var(--space-xs) var(--space-sm);
-            border-radius: 100px;
-            font-size: var(--text-sm);
-            font-weight: 600;
-            margin-bottom: var(--space-sm);
-        }
-        
-        .section-title {
-            font-size: var(--text-4xl);
-            font-weight: 800;
-            margin-bottom: var(--space-md);
-            color: var(--midnight);
-        }
-        
-        .section-subtitle {
-            font-size: var(--text-lg);
-            color: var(--slate);
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        
-        /* Evidence Cards */
-        .evidence-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: var(--space-lg);
-        }
-        
-        .evidence-card {
-            background: var(--white);
-            padding: var(--space-xl);
-            border-radius: 16px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-            transition: all 0.3s;
-        }
-        
-        .evidence-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 8px 40px rgba(0, 0, 0, 0.12);
-        }
-        
-        .evidence-icon {
-            width: 48px;
-            height: 48px;
-            background: linear-gradient(135deg, var(--primary) 0%, var(--aurora-teal) 100%);
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: var(--space-md);
-            font-size: var(--text-2xl);
-        }
-        
-        .evidence-title {
-            font-size: var(--text-xl);
-            font-weight: 700;
-            margin-bottom: var(--space-sm);
-            color: var(--midnight);
-        }
-        
-        .evidence-description {
-            color: var(--slate);
-            line-height: 1.7;
-            margin-bottom: var(--space-md);
-        }
-        
-        .evidence-stat {
-            font-size: var(--text-2xl);
-            font-weight: 800;
-            color: var(--secondary);
-        }
-        
-        /* Economics Section */
-        .economics {
-            padding: var(--space-3xl) 0;
-            background: var(--white);
-        }
-        
-        .economics-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: var(--space-xl);
-            margin-top: var(--space-3xl);
-        }
-        
-        .economics-card {
-            text-align: center;
-        }
-        
-        .economics-icon {
-            width: 80px;
-            height: 80px;
-            background: linear-gradient(135deg, var(--aurora-green) 0%, var(--aurora-teal) 100%);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto var(--space-md);
-            font-size: var(--text-3xl);
-        }
-        
-        .economics-value {
-            font-size: var(--text-4xl);
-            font-weight: 900;
-            color: var(--primary);
-            margin-bottom: var(--space-xs);
-        }
-        
-        .economics-label {
-            font-size: var(--text-base);
-            color: var(--slate);
-            margin-bottom: var(--space-sm);
-        }
-        
-        .economics-detail {
-            font-size: var(--text-sm);
-            color: var(--slate);
-            line-height: 1.6;
-        }
-        
-        /* Technology Section */
-        .technology {
-            padding: var(--space-3xl) 0;
-            background: linear-gradient(180deg, var(--midnight) 0%, #1a1f3a 100%);
-            color: var(--white);
-        }
-        
-        .technology .section-title {
-            color: var(--white);
-        }
-        
-        .technology .section-subtitle {
-            color: rgba(255, 255, 255, 0.8);
-        }
-        
-        .tech-showcase {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: var(--space-lg);
-            margin-top: var(--space-3xl);
-        }
-        
-        .tech-item {
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(10px);
-            padding: var(--space-lg);
-            border-radius: 12px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            transition: all 0.3s;
-        }
-        
-        .tech-item:hover {
-            background: rgba(255, 255, 255, 0.1);
-            transform: translateY(-4px);
-        }
-        
-        .tech-name {
-            font-size: var(--text-lg);
-            font-weight: 700;
-            margin-bottom: var(--space-sm);
-            color: var(--glacier-blue);
-        }
-        
-        .tech-description {
-            color: rgba(255, 255, 255, 0.7);
-            line-height: 1.6;
-        }
-        
-        /* Investment Section */
-        .investment {
-            padding: var(--space-3xl) 0;
-            background: var(--off-white);
-        }
-        
-        .investment-box {
-            background: var(--white);
-            padding: var(--space-3xl);
-            border-radius: 24px;
-            box-shadow: 0 8px 40px rgba(0, 0, 0, 0.1);
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-        
-        .investment-header {
-            text-align: center;
-            margin-bottom: var(--space-xl);
-        }
-        
-        .investment-amount {
-            font-size: var(--text-5xl);
-            font-weight: 900;
-            color: var(--primary);
-            margin-bottom: var(--space-sm);
-        }
-        
-        .investment-stage {
-            font-size: var(--text-xl);
-            color: var(--slate);
-            margin-bottom: var(--space-xl);
-        }
-        
-        /* Use of Funds */
-        .funds-breakdown {
-            margin-bottom: var(--space-xl);
-        }
-        
-        .fund-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: var(--space-sm) 0;
-            border-bottom: 1px solid var(--border);
-        }
-        
-        .fund-label {
-            font-weight: 600;
-            color: var(--midnight);
-        }
-        
-        .fund-amount {
-            color: var(--primary);
-            font-weight: 700;
-        }
-        
-        .fund-bar {
-            height: 8px;
-            background: var(--light-gray);
-            border-radius: 4px;
-            margin-top: var(--space-xs);
-            overflow: hidden;
-        }
-        
-        .fund-progress {
-            height: 100%;
-            background: linear-gradient(90deg, var(--primary) 0%, var(--aurora-teal) 100%);
-            border-radius: 4px;
-        }
-        
-        /* Investment Terms */
-        .investment-terms {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: var(--space-lg);
-            margin-bottom: var(--space-xl);
-        }
-        
-        .term {
-            text-align: center;
-            padding: var(--space-md);
-            background: var(--off-white);
-            border-radius: 8px;
-        }
-        
-        .term-value {
-            font-size: var(--text-2xl);
-            font-weight: 800;
-            color: var(--primary);
-            margin-bottom: var(--space-xs);
-        }
-        
-        .term-label {
-            font-size: var(--text-sm);
-            color: var(--slate);
-        }
-        
-        /* CTA Section */
-        .cta-section {
-            padding: var(--space-3xl) 0;
-            background: linear-gradient(135deg, var(--primary) 0%, var(--aurora-teal) 100%);
-            color: var(--white);
-            text-align: center;
-        }
-        
-        .cta-title {
-            font-size: var(--text-4xl);
-            font-weight: 800;
-            margin-bottom: var(--space-md);
-        }
-        
-        .cta-subtitle {
-            font-size: var(--text-xl);
-            margin-bottom: var(--space-xl);
-            opacity: 0.9;
-        }
-        
-        .cta-actions {
-            display: flex;
-            gap: var(--space-md);
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-        
-        .btn-white {
-            background: var(--white);
-            color: var(--primary);
-        }
-        
-        .btn-white:hover {
-            background: var(--off-white);
-            transform: translateY(-2px);
-            box-shadow: 0 8px 30px rgba(255, 255, 255, 0.3);
-        }
-        
-        .btn-outline {
-            background: transparent;
-            color: var(--white);
-            border: 2px solid var(--white);
-        }
-        
-        .btn-outline:hover {
-            background: var(--white);
-            color: var(--primary);
-        }
-        
-        /* Footer */
-        .footer {
-            background: var(--midnight);
-            color: var(--white);
-            padding: var(--space-3xl) 0 var(--space-xl);
-        }
-        
-        .footer-content {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: var(--space-xl);
-            margin-bottom: var(--space-xl);
-        }
-        
-        .footer-section h4 {
-            font-size: var(--text-lg);
-            margin-bottom: var(--space-md);
-            color: var(--glacier-blue);
-        }
-        
-        .footer-section p,
-        .footer-section a {
-            color: rgba(255, 255, 255, 0.7);
-            text-decoration: none;
-            line-height: 1.8;
-            transition: color 0.2s;
-        }
-        
-        .footer-section a:hover {
-            color: var(--glacier-blue);
-        }
-        
-        .footer-bottom {
-            padding-top: var(--space-xl);
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            text-align: center;
-        }
-        
-        .footer-disclaimer {
-            font-size: var(--text-sm);
-            color: rgba(255, 255, 255, 0.5);
-            margin-top: var(--space-sm);
-        }
-        
-        /* Transparency Badge */
-        .transparency-badge {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background: var(--secondary);
-            color: var(--white);
-            padding: var(--space-sm) var(--space-md);
-            border-radius: 100px;
-            font-weight: 600;
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            gap: var(--space-xs);
-            z-index: 999;
-            box-shadow: 0 4px 20px rgba(0, 168, 107, 0.3);
-            transition: all 0.3s;
-        }
-        
-        .transparency-badge:hover {
-            transform: scale(1.05);
-            box-shadow: 0 8px 30px rgba(0, 168, 107, 0.4);
-        }
-        
-        /* Mobile Responsiveness */
-        @media (max-width: 768px) {
-            .nav-links {
-                display: none;
-            }
-            
-            .hero-metrics {
-                grid-template-columns: 1fr 1fr;
-            }
-            
-            .evidence-grid,
-            .economics-grid,
-            .tech-showcase {
-                grid-template-columns: 1fr;
-            }
-            
-            .investment-terms {
-                grid-template-columns: 1fr 1fr;
-            }
-            
-            .hero-title {
-                font-size: var(--text-4xl);
-            }
-        }
-        
-        /* Animations */
-        @keyframes fadeIn {
+        @keyframes fadeInUp {
             from {
                 opacity: 0;
-                transform: translateY(20px);
+                transform: translateY(30px);
             }
             to {
                 opacity: 1;
@@ -764,473 +55,547 @@
             }
         }
         
-        .animate-in {
-            animation: fadeIn 0.6s ease-out forwards;
+        h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            margin-bottom: 1rem;
+            font-weight: 700;
         }
         
-        /* Loading State */
-        .loading {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: var(--white);
+        .tagline {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+        }
+        
+        .cta-group {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+        
+        .btn {
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: inline-block;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #1557b0;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        
+        .btn-secondary {
+            background: rgba(255,255,255,0.95);
+            color: var(--dark);
+        }
+        
+        .btn-secondary:hover {
+            background: white;
+            transform: translateY(-2px);
+        }
+        
+        .quick-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-top: 3rem;
+            padding: 1.5rem;
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            display: block;
+        }
+        
+        .stat-label {
+            font-size: 0.875rem;
+            opacity: 0.9;
+        }
+        
+        section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        
+        .section-intro {
+            text-align: center;
+            font-size: 1.125rem;
+            color: #64748b;
+            margin-bottom: 3rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .contact-section {
+            background: var(--light);
+            border-radius: 16px;
+            padding: 3rem;
+            margin: 4rem auto;
+        }
+        
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: var(--dark);
+        }
+        
+        input, textarea, select {
+            width: 100%;
+            padding: 0.75rem;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+        
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+        
+        textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+        
+        .calendar-widget {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            margin: 2rem 0;
+        }
+        
+        .faq-section {
+            margin: 4rem 0;
+        }
+        
+        .faq-item {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .faq-item:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .faq-question {
+            font-weight: 600;
+            font-size: 1.125rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .faq-answer {
+            margin-top: 1rem;
+            color: #64748b;
+            display: none;
+        }
+        
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+        
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .team-member {
+            text-align: center;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .member-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: var(--gradient);
+            margin: 0 auto 1rem;
             display: flex;
             align-items: center;
             justify-content: center;
-            z-index: 10000;
+            color: white;
+            font-size: 2rem;
+            font-weight: 700;
         }
         
-        .loading-spinner {
-            width: 50px;
-            height: 50px;
-            border: 4px solid var(--light-gray);
-            border-top: 4px solid var(--primary);
+        .download-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 16px;
+            padding: 3rem;
+            text-align: center;
+            color: white;
+            margin: 4rem 0;
+        }
+        
+        .download-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .download-item {
+            background: rgba(255,255,255,0.2);
+            padding: 1.5rem;
+            border-radius: 8px;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .download-item:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-2px);
+        }
+        
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #25d366;
+            color: white;
+            width: 60px;
+            height: 60px;
             border-radius: 50%;
-            animation: spin 1s linear infinite;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            z-index: 1000;
         }
         
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+        }
+        
+        footer {
+            background: var(--dark);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        
+        .footer-links {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            opacity: 1;
         }
     </style>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="/" class="logo">Terra Lumina</a>
-            <div class="nav-links">
-                <a href="#evidence" class="nav-link">Evidence</a>
-                <a href="#economics" class="nav-link">Economics</a>
-                <a href="#technology" class="nav-link">Technology</a>
-                <a href="#investment" class="nav-link">Investment</a>
-                <a href="https://terra.luminousdynamics.org/transparency" class="nav-link">Transparency</a>
-                <a href="https://terra.luminousdynamics.org/data-room" class="nav-cta">Data Room</a>
-            </div>
-        </nav>
-    </header>
-
     <!-- Hero Section -->
     <section class="hero">
-        <div class="container hero-content">
-            <div class="hero-badge">🌍 Building in Iceland • Government Partnership</div>
+        <div class="hero-content">
+            <h1>Terra Lumina</h1>
+            <p class="tagline">Building Paradise with 2¢/kWh Energy in Iceland</p>
             
-            <h1 class="hero-title">Energy Changes<br>Everything</h1>
-            
-            <p class="hero-subtitle">
-                When energy costs 2¢/kWh instead of 20¢, everything becomes possible. 
-                We're building cities where energy is essentially free, 70% remains wilderness, 
-                and returns exceed 18% IRR. This isn't theory. Iceland proved it works.
-            </p>
-            
-            <div class="hero-metrics">
-                <div class="metric">
-                    <div class="metric-value">€650M</div>
-                    <div class="metric-label">Series D Round</div>
-                </div>
-                <div class="metric">
-                    <div class="metric-value">18-22%</div>
-                    <div class="metric-label">Target IRR</div>
-                </div>
-                <div class="metric">
-                    <div class="metric-value">500MW</div>
-                    <div class="metric-label">Clean Energy</div>
-                </div>
+            <div class="cta-group">
+                <a href="#contact" class="btn btn-primary">Schedule Investor Call</a>
+                <a href="#data-room" class="btn btn-secondary">Access Data Room</a>
             </div>
             
-            <div class="hero-actions">
-                <a href="#investment" class="btn btn-primary">
-                    Investment Overview →
-                </a>
-                <a href="https://terra.luminousdynamics.org/transparency" class="btn btn-secondary">
-                    See Real Numbers
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Trust Bar -->
-    <section class="trust-bar">
-        <div class="container trust-items">
-            <div class="trust-item">
-                <svg class="trust-icon" viewBox="0 0 20 20" fill="currentColor">
-                    <path d="M10 2a8 8 0 100 16 8 8 0 000-16zM8.707 11.707a1 1 0 01-1.414-1.414l2-2a1 1 0 011.414 0l4 4a1 1 0 01-1.414 1.414L10 10.414l-1.293 1.293z"/>
-                </svg>
-                <span>Third-party verified numbers</span>
-            </div>
-            <div class="trust-item">
-                <svg class="trust-icon" viewBox="0 0 20 20" fill="currentColor">
-                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
-                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
-                </svg>
-                <span>Due diligence ready</span>
-            </div>
-            <div class="trust-item">
-                <svg class="trust-icon" viewBox="0 0 20 20" fill="currentColor">
-                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3a1 1 0 001 1h2a1 1 0 100-2h-1V7z" clip-rule="evenodd"/>
-                </svg>
-                <span>Monthly progress reports</span>
-            </div>
-            <div class="trust-item">
-                <svg class="trust-icon" viewBox="0 0 20 20" fill="currentColor">
-                    <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                </svg>
-                <span>Insurance coverage ready</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- Evidence Section -->
-    <section class="evidence" id="evidence">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-badge">Proven Model</div>
-                <h2 class="section-title">This Isn't Theory. Iceland Proved It.</h2>
-                <p class="section-subtitle">
-                    Iceland runs entirely on geothermal and hydro. Their aluminum industry moved there 
-                    for 2¢/kWh power. Data centers followed. Now we're scaling this model into complete cities.
-                </p>
-            </div>
-            
-            <div class="evidence-grid">
-                <div class="evidence-card">
-                    <div class="evidence-icon">⚡</div>
-                    <h3 class="evidence-title">Alcoa Aluminum Plant</h3>
-                    <p class="evidence-description">
-                        Moved operations to Iceland in 2007 specifically for cheap geothermal power. 
-                        Now employs 500+ people and generates €500M annually.
-                    </p>
-                    <div class="evidence-stat">2¢/kWh actual cost</div>
+            <div class="quick-stats">
+                <div class="stat">
+                    <span class="stat-value">€650M</span>
+                    <span class="stat-label">Series D Target</span>
                 </div>
-                
-                <div class="evidence-card">
-                    <div class="evidence-icon">🖥️</div>
-                    <h3 class="evidence-title">Data Center Boom</h3>
-                    <p class="evidence-description">
-                        Verne Global, Advania, and others operate massive facilities. 
-                        Microsoft and Google have established presence.
-                    </p>
-                    <div class="evidence-stat">40% lower costs</div>
+                <div class="stat">
+                    <span class="stat-value">18-22%</span>
+                    <span class="stat-label">Target IRR</span>
                 </div>
-                
-                <div class="evidence-card">
-                    <div class="evidence-icon">🌋</div>
-                    <h3 class="evidence-title">50+ Years Operating</h3>
-                    <p class="evidence-description">
-                        Svartsengi power plant running since 1976. Hellisheiði since 2006. 
-                        Proven technology with decades of data.
-                    </p>
-                    <div class="evidence-stat">99.98% uptime</div>
+                <div class="stat">
+                    <span class="stat-value">2¢/kWh</span>
+                    <span class="stat-label">Energy Cost</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">100,000</span>
+                    <span class="stat-label">Residents by 2035</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Economics Section -->
-    <section class="economics" id="economics">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-badge">The Numbers</div>
-                <h2 class="section-title">Economics That Actually Work</h2>
-                <p class="section-subtitle">
-                    Not wishful thinking. Conservative projections based on existing contracts and proven demand.
-                </p>
+    <!-- Quick Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Connect with Terra Lumina</h2>
+        <p class="section-intro">Schedule a call or send us a message to explore investment opportunities</p>
+        
+        <!-- Calendly Widget -->
+        <div class="calendar-widget">
+            <h3>Schedule a Call</h3>
+            <p>Book a 30-minute investor briefing</p>
+            <a href="https://calendly.com/terra-lumina/investor-briefing" class="btn btn-primary" target="_blank">
+                Choose a Time
+            </a>
+        </div>
+        
+        <!-- Contact Form -->
+        <form action="https://formspree.io/f/xpwzzzql" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" required>
             </div>
             
-            <div class="economics-grid">
-                <div class="economics-card">
-                    <div class="economics-icon">💰</div>
-                    <div class="economics-value">€600M</div>
-                    <div class="economics-label">Annual Revenue</div>
-                    <div class="economics-detail">At full operation (Year 7)</div>
-                </div>
-                
-                <div class="economics-card">
-                    <div class="economics-icon">📈</div>
-                    <div class="economics-value">18-22%</div>
-                    <div class="economics-label">IRR (20-year)</div>
-                    <div class="economics-detail">Third-party validated</div>
-                </div>
-                
-                <div class="economics-card">
-                    <div class="economics-icon">⏱️</div>
-                    <div class="economics-value">5-7 years</div>
-                    <div class="economics-label">Payback Period</div>
-                    <div class="economics-detail">With contracted revenue</div>
-                </div>
-                
-                <div class="economics-card">
-                    <div class="economics-icon">🏗️</div>
-                    <div class="economics-value">€2.5B</div>
-                    <div class="economics-label">Asset Value</div>
-                    <div class="economics-detail">Infrastructure at completion</div>
-                </div>
+            <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="organization">Organization</label>
+                <input type="text" id="organization" name="organization">
+            </div>
+            
+            <div class="form-group">
+                <label for="investment-size">Investment Interest</label>
+                <select id="investment-size" name="investment_size">
+                    <option value="">Select range...</option>
+                    <option value="1-5M">€1M - €5M</option>
+                    <option value="5-10M">€5M - €10M</option>
+                    <option value="10-25M">€10M - €25M</option>
+                    <option value="25-50M">€25M - €50M</option>
+                    <option value="50M+">€50M+</option>
+                    <option value="strategic">Strategic Partnership</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Tell us about your interest in Terra Lumina..."></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+        </form>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <p class="section-intro">Quick answers to common investor questions</p>
+        
+        <div class="faq-item" onclick="toggleFAQ(this)">
+            <div class="faq-question">
+                Why Iceland specifically?
+                <span>+</span>
+            </div>
+            <div class="faq-answer">
+                Iceland offers the world's most affordable renewable energy at 2-3¢/kWh from geothermal sources, proven technology with 90+ years of operation, stable democracy with strong property rights, and strategic location between North America and Europe. The country already powers 100% of its grid with renewables and has excess capacity ready for development.
+            </div>
+        </div>
+        
+        <div class="faq-item" onclick="toggleFAQ(this)">
+            <div class="faq-question">
+                What makes the 18-22% IRR achievable?
+                <span>+</span>
+            </div>
+            <div class="faq-answer">
+                Our returns are driven by: energy arbitrage (2¢ production vs 15¢ market rate), industrial anchor tenants (data centers paying premium rates), real estate appreciation in energy-abundant zones, carbon credit revenue streams, and government incentives for sustainable development. These are conservative projections based on existing Iceland energy projects.
+            </div>
+        </div>
+        
+        <div class="faq-item" onclick="toggleFAQ(this)">
+            <div class="faq-question">
+                Why €650M for Series D?
+                <span>+</span>
+            </div>
+            <div class="faq-answer">
+                The €650M breaks down into: €250M for geothermal plant expansion, €200M for initial city infrastructure, €100M for industrial customer facilities, €50M for residential development phase 1, and €50M for working capital and contingency. This fully funds us through positive cash flow in Year 3.
+            </div>
+        </div>
+        
+        <div class="faq-item" onclick="toggleFAQ(this)">
+            <div class="faq-question">
+                What's the exit strategy?
+                <span>+</span>
+            </div>
+            <div class="faq-answer">
+                Multiple exit paths: IPO of the energy infrastructure (comparable to Orsted's $30B valuation), strategic acquisition by energy majors or sovereign wealth funds, REIT conversion for the real estate portfolio, or long-term dividend yields of 8-12% annually. The infrastructure nature provides stable, predictable returns.
+            </div>
+        </div>
+        
+        <div class="faq-item" onclick="toggleFAQ(this)">
+            <div class="faq-question">
+                How do you handle construction in Iceland's climate?
+                <span>+</span>
+            </div>
+            <div class="faq-answer">
+                Iceland has 90+ years of experience building in Arctic conditions. We use proven techniques: reinforced foundations for volcanic soil, geothermal heating for year-round construction, prefabricated components manufactured off-site, and summer intensification for major works. Our construction partners have delivered 500+ projects in Iceland.
             </div>
         </div>
     </section>
 
-    <!-- Technology Section -->
-    <section class="technology" id="technology">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-badge">Proven Technology</div>
-                <h2 class="section-title">Nothing to Invent. Everything to Build.</h2>
-                <p class="section-subtitle">
-                    Every technology we use is already operating at scale somewhere in the world.
-                </p>
+    <!-- Team Section -->
+    <section id="team">
+        <h2>Leadership Team</h2>
+        <p class="section-intro">Experienced operators building the future of sustainable cities</p>
+        
+        <div class="team-grid">
+            <div class="team-member">
+                <div class="member-photo">TBA</div>
+                <h3>CEO</h3>
+                <p>To Be Announced</p>
+                <p style="color: #64748b; font-size: 0.875rem;">Hiring in progress - targeting energy infrastructure veteran with €1B+ project experience</p>
             </div>
             
-            <div class="tech-showcase">
-                <div class="tech-item">
-                    <div class="tech-name">Geothermal Energy</div>
-                    <div class="tech-description">
-                        500MW capacity from proven reservoirs. Same technology powering all of Iceland.
-                    </div>
-                </div>
-                
-                <div class="tech-item">
-                    <div class="tech-name">District Heating</div>
-                    <div class="tech-description">
-                        Cascade utilization means 100% energy efficiency. Heat homes with waste heat.
-                    </div>
-                </div>
-                
-                <div class="tech-item">
-                    <div class="tech-name">Circular Systems</div>
-                    <div class="tech-description">
-                        Zero waste through proven circular economy principles already working in Europe.
-                    </div>
-                </div>
-                
-                <div class="tech-item">
-                    <div class="tech-name">Smart Infrastructure</div>
-                    <div class="tech-description">
-                        IoT and automation for efficiency. Nothing experimental, all proven tech.
-                    </div>
-                </div>
+            <div class="team-member">
+                <div class="member-photo">TBA</div>
+                <h3>CTO</h3>
+                <p>To Be Announced</p>
+                <p style="color: #64748b; font-size: 0.875rem;">Seeking geothermal engineering expert with Iceland deployment experience</p>
+            </div>
+            
+            <div class="team-member">
+                <div class="member-photo">TBA</div>
+                <h3>CFO</h3>
+                <p>To Be Announced</p>
+                <p style="color: #64748b; font-size: 0.875rem;">Infrastructure finance specialist with institutional fundraising track record</p>
+            </div>
+            
+            <div class="team-member">
+                <div class="member-photo">LD</div>
+                <h3>Founding Vision</h3>
+                <p>Luminous Dynamics</p>
+                <p style="color: #64748b; font-size: 0.875rem;">Consciousness-first technology collective originating the Terra Lumina concept</p>
             </div>
         </div>
     </section>
 
-    <!-- Investment Section -->
-    <section class="investment" id="investment">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-badge">Investment Opportunity</div>
-                <h2 class="section-title">Series D: Building the First City</h2>
-            </div>
-            
-            <div class="investment-box">
-                <div class="investment-header">
-                    <div class="investment-amount">€650M</div>
-                    <div class="investment-stage">Series D Funding Round</div>
-                </div>
-                
-                <div class="investment-terms">
-                    <div class="term">
-                        <div class="term-value">€1.2B</div>
-                        <div class="term-label">Pre-money Valuation</div>
-                    </div>
-                    <div class="term">
-                        <div class="term-value">€10M</div>
-                        <div class="term-label">Minimum Investment</div>
-                    </div>
-                    <div class="term">
-                        <div class="term-value">Q1 2025</div>
-                        <div class="term-label">Closing Date</div>
-                    </div>
-                    <div class="term">
-                        <div class="term-value">35%</div>
-                        <div class="term-label">Equity Offered</div>
-                    </div>
-                </div>
-                
-                <div class="funds-breakdown">
-                    <h3 style="margin-bottom: var(--space-md);">Use of Funds</h3>
-                    
-                    <div class="fund-item">
-                        <span class="fund-label">Geothermal Infrastructure</span>
-                        <span class="fund-amount">€450M</span>
-                    </div>
-                    <div class="fund-bar">
-                        <div class="fund-progress" style="width: 69%"></div>
-                    </div>
-                    
-                    <div class="fund-item">
-                        <span class="fund-label">City Infrastructure</span>
-                        <span class="fund-amount">€100M</span>
-                    </div>
-                    <div class="fund-bar">
-                        <div class="fund-progress" style="width: 15%"></div>
-                    </div>
-                    
-                    <div class="fund-item">
-                        <span class="fund-label">Industrial Parks</span>
-                        <span class="fund-amount">€50M</span>
-                    </div>
-                    <div class="fund-bar">
-                        <div class="fund-progress" style="width: 8%"></div>
-                    </div>
-                    
-                    <div class="fund-item">
-                        <span class="fund-label">Working Capital</span>
-                        <span class="fund-amount">€50M</span>
-                    </div>
-                    <div class="fund-bar">
-                        <div class="fund-progress" style="width: 8%"></div>
-                    </div>
-                </div>
-                
-                <div style="text-align: center; margin-top: var(--space-xl);">
-                    <div class="hero-actions" style="justify-content: center;">
-                        <a href="https://terra.luminousdynamics.org/data-room" class="btn btn-primary">
-                            Access Data Room
-                        </a>
-                        <a href="https://terra.luminousdynamics.org/pitch-deck.pdf" class="btn btn-secondary">
-                            Download Pitch Deck
-                        </a>
-                    </div>
-                </div>
-            </div>
+    <!-- Download Section -->
+    <section class="download-section">
+        <h2>Investor Resources</h2>
+        <p>Download key documents to evaluate the opportunity</p>
+        
+        <div class="download-grid">
+            <a href="/executive-summary.pdf" class="download-item">
+                📄 Executive Summary (2 pages)
+            </a>
+            <a href="/pitch-deck.pdf" class="download-item">
+                📊 Pitch Deck (15 slides)
+            </a>
+            <a href="/financial-model.xlsx" class="download-item">
+                💰 Financial Model
+            </a>
+            <a href="/technical-feasibility.pdf" class="download-item">
+                🔬 Technical Study
+            </a>
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="cta-section">
-        <div class="container">
-            <h2 class="cta-title">The Window Is Open</h2>
-            <p class="cta-subtitle">
-                First movers will own the future of human habitation. 
-                Join us in building cities that prove paradise is profitable.
-            </p>
-            
-            <div class="cta-actions">
-                <a href="https://terra.luminousdynamics.org/investors" class="btn btn-white">
-                    Schedule a Call →
-                </a>
-                <a href="https://terra.luminousdynamics.org/site-visit" class="btn btn-outline">
-                    Visit Iceland Site
-                </a>
-            </div>
-        </div>
+    <!-- Data Room CTA -->
+    <section id="data-room" style="background: var(--light); border-radius: 16px; padding: 3rem; text-align: center;">
+        <h2>Ready for Due Diligence?</h2>
+        <p class="section-intro">Access our complete data room with detailed financials, technical studies, and legal documents</p>
+        <a href="https://calendly.com/terra-lumina/data-room-access" class="btn btn-primary">Request Data Room Access</a>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>Terra Lumina</h4>
-                    <p>
-                        Building energy-abundant cities<br>
-                        where paradise meets profit.
-                    </p>
-                    <p style="margin-top: var(--space-md);">
-                        Part of <a href="https://luminousdynamics.org">Luminous Dynamics</a>
-                    </p>
-                </div>
-                
-                <div class="footer-section">
-                    <h4>For Investors</h4>
-                    <p>
-                        <a href="https://terra.luminousdynamics.org/data-room">Data Room</a><br>
-                        <a href="https://terra.luminousdynamics.org/financials">Financial Models</a><br>
-                        <a href="https://terra.luminousdynamics.org/due-diligence">Due Diligence</a><br>
-                        <a href="https://terra.luminousdynamics.org/transparency">Transparency Report</a>
-                    </p>
-                </div>
-                
-                <div class="footer-section">
-                    <h4>Resources</h4>
-                    <p>
-                        <a href="https://terra.luminousdynamics.org/whitepaper">White Paper</a><br>
-                        <a href="https://terra.luminousdynamics.org/technical">Technical Specs</a><br>
-                        <a href="https://terra.luminousdynamics.org/media">Media Kit</a><br>
-                        <a href="https://terra.luminousdynamics.org/faq">FAQ</a>
-                    </p>
-                </div>
-                
-                <div class="footer-section">
-                    <h4>Contact</h4>
-                    <p>
-                        General: info@terra.luminousdynamics.org<br>
-                        Investors: investors@terra.luminousdynamics.org<br>
-                        Media: press@terra.luminousdynamics.org<br>
-                        Careers: careers@terra.luminousdynamics.org
-                    </p>
-                </div>
-            </div>
-            
-            <div class="footer-bottom">
-                <p>&copy; 2024 Terra Lumina. Building paradise with patience, proof, and purpose.</p>
-                <p class="footer-disclaimer">
-                    This is not an offer to sell securities. Offerings made only by Private Placement Memorandum to qualified investors.
-                    All projections are estimates. See full disclaimers and risk factors in our transparency report.
-                </p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Transparency Badge -->
-    <a href="https://terra.luminousdynamics.org/transparency" class="transparency-badge">
-        <svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor">
-            <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/>
-            <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"/>
-        </svg>
-        Radical Transparency
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/3547701234?text=Interested%20in%20Terra%20Lumina%20Series%20D" class="whatsapp-float" target="_blank">
+        💬
     </a>
 
-    <!-- JavaScript -->
-    <script>
-        // Header scroll effect
-        window.addEventListener('scroll', function() {
-            const header = document.getElementById('header');
-            if (window.scrollY > 50) {
-                header.classList.add('scrolled');
-            } else {
-                header.classList.remove('scrolled');
-            }
-        });
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/transparency">Transparency</a>
+            <a href="#contact">Contact</a>
+            <a href="/privacy">Privacy</a>
+            <a href="/terms">Terms</a>
+        </div>
+        <p>© 2024 Terra Lumina | Part of Luminous Dynamics</p>
+        <p style="opacity: 0.7; font-size: 0.875rem; margin-top: 1rem;">
+            Building energy-abundant cities where consciousness and capital unite
+        </p>
+    </footer>
 
+    <script>
+        function toggleFAQ(element) {
+            element.classList.toggle('active');
+            const span = element.querySelector('.faq-question span');
+            span.textContent = element.classList.contains('active') ? '−' : '+';
+        }
+        
         // Smooth scroll for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
             });
         });
-
-        // Animate elements on scroll
-        const observerOptions = {
-            root: null,
-            rootMargin: '0px',
-            threshold: 0.1
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('animate-in');
-                }
-            });
-        }, observerOptions);
-
-        // Observe all sections
-        document.querySelectorAll('section').forEach(section => {
-            observer.observe(section);
-        });
-
-        // Analytics (replace with your analytics code)
-        console.log('Terra Lumina Website Loaded - terra.luminousdynamics.org');
     </script>
 </body>
 </html>
