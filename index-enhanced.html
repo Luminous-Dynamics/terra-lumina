@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terra Lumina - €650M Series D | Energy-Abundant Cities</title>
+    <meta name="description" content="Building regenerative cities powered by Iceland's infinite geothermal energy. 18-22% IRR. €650M Series D opening Q1 2025.">
+    <link rel="manifest" href="manifest.json">
+    <style>
+        :root {
+            --primary: #1a73e8;
+            --secondary: #00c853;
+            --dark: #0f172a;
+            --light: #f8fafc;
+            --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+        }
+        
+        .hero {
+            min-height: 100vh;
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%230099ff" fill-opacity="0.3" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,133.3C672,139,768,181,864,181.3C960,181,1056,139,1152,117.3C1248,96,1344,96,1392,96L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>') center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+        
+        .hero-content {
+            max-width: 800px;
+            padding: 2rem;
+            animation: fadeInUp 1s ease-out;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        
+        .tagline {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+        }
+        
+        .cta-group {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+        
+        .btn {
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: inline-block;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #1557b0;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        
+        .btn-secondary {
+            background: rgba(255,255,255,0.95);
+            color: var(--dark);
+        }
+        
+        .btn-secondary:hover {
+            background: white;
+            transform: translateY(-2px);
+        }
+        
+        .quick-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-top: 3rem;
+            padding: 1.5rem;
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            display: block;
+        }
+        
+        .stat-label {
+            font-size: 0.875rem;
+            opacity: 0.9;
+        }
+        
+        section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        
+        .section-intro {
+            text-align: center;
+            font-size: 1.125rem;
+            color: #64748b;
+            margin-bottom: 3rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .contact-section {
+            background: var(--light);
+            border-radius: 16px;
+            padding: 3rem;
+            margin: 4rem auto;
+        }
+        
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: var(--dark);
+        }
+        
+        input, textarea, select {
+            width: 100%;
+            padding: 0.75rem;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+        
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+        
+        textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+        
+        .calendar-widget {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            margin: 2rem 0;
+        }
+        
+        .faq-section {
+            margin: 4rem 0;
+        }
+        
+        .faq-item {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .faq-item:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .faq-question {
+            font-weight: 600;
+            font-size: 1.125rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .faq-answer {
+            margin-top: 1rem;
+            color: #64748b;
+            display: none;
+        }
+        
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+        
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .team-member {
+            text-align: center;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .member-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: var(--gradient);
+            margin: 0 auto 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        
+        .download-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 16px;
+            padding: 3rem;
+            text-align: center;
+            color: white;
+            margin: 4rem 0;
+        }
+        
+        .download-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .download-item {
+            background: rgba(255,255,255,0.2);
+            padding: 1.5rem;
+            border-radius: 8px;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .download-item:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-2px);
+        }
+        
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #25d366;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+        
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+        }
+        
+        footer {
+            background: var(--dark);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        
+        .footer-links {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Terra Lumina</h1>
+            <p class="tagline">Building Paradise with 2¢/kWh Energy in Iceland</p>
+            
+            <div class="cta-group">
+                <a href="#contact" class="btn btn-primary">Schedule Investor Call</a>
+                <a href="#data-room" class="btn btn-secondary">Access Data Room</a>
+            </div>
+            
+            <div class="quick-stats">
+                <div class="stat">
+                    <span class="stat-value">€650M</span>
+                    <span class="stat-label">Series D Target</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">18-22%</span>
+                    <span class="stat-label">Target IRR</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">2¢/kWh</span>
+                    <span class="stat-label">Energy Cost</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">100,000</span>
+                    <span class="stat-label">Residents by 2035</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Connect with Terra Lumina</h2>
+        <p class="section-intro">Schedule a call or send us a message to explore investment opportunities</p>
+        
+        <!-- Calendly Widget -->
+        <div class="calendar-widget">
+            <h3>Schedule a Call</h3>
+            <p>Book a 30-minute investor briefing</p>
+            <a href="https://calendly.com/terra-lumina/investor-briefing" class="btn btn-primary" target="_blank">
+                Choose a Time
+            </a>
+        </div>
+        
+        <!-- Contact Form -->
+        <form action="https://formspree.io/f/xpwzzzql" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="organization">Organization</label>
+                <input type="text" id="organization" name="organization">
+            </div>
+            
+            <div class="form-group">
+                <label for="investment-size">Investment Interest</label>
+                <select id="investment-size" name="investment_size">
+                    <option value="">Select range...</option>
+                    <option value="1-5M">€1M - €5M</option>
+                    <option value="5-10M">€5M - €10M</option>
+                    <option value="10-25M">€10M - €25M</option>
+                    <option value="25-50M">€25M - €50M</option>
+                    <option value="50M+">€50M+</option>
+                    <option value="strategic">Strategic Partnership</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Tell us about your interest in Terra Lumina..."></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+        </form>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <p class="section-intro">Quick answers to common investor questions</p>
+        
+        <div class="faq-item" onclick="toggleFAQ(this)">
+            <div class="faq-question">
+                Why Iceland specifically?
+                <span>+</span>
+            </div>
+            <div class="faq-answer">
+                Iceland offers the world's most affordable renewable energy at 2-3¢/kWh from geothermal sources, proven technology with 90+ years of operation, stable democracy with strong property rights, and strategic location between North America and Europe. The country already powers 100% of its grid with renewables and has excess capacity ready for development.
+            </div>
+        </div>
+        
+        <div class="faq-item" onclick="toggleFAQ(this)">
+            <div class="faq-question">
+                What makes the 18-22% IRR achievable?
+                <span>+</span>
+            </div>
+            <div class="faq-answer">
+                Our returns are driven by: energy arbitrage (2¢ production vs 15¢ market rate), industrial anchor tenants (data centers paying premium rates), real estate appreciation in energy-abundant zones, carbon credit revenue streams, and government incentives for sustainable development. These are conservative projections based on existing Iceland energy projects.
+            </div>
+        </div>
+        
+        <div class="faq-item" onclick="toggleFAQ(this)">
+            <div class="faq-question">
+                Why €650M for Series D?
+                <span>+</span>
+            </div>
+            <div class="faq-answer">
+                The €650M breaks down into: €250M for geothermal plant expansion, €200M for initial city infrastructure, €100M for industrial customer facilities, €50M for residential development phase 1, and €50M for working capital and contingency. This fully funds us through positive cash flow in Year 3.
+            </div>
+        </div>
+        
+        <div class="faq-item" onclick="toggleFAQ(this)">
+            <div class="faq-question">
+                What's the exit strategy?
+                <span>+</span>
+            </div>
+            <div class="faq-answer">
+                Multiple exit paths: IPO of the energy infrastructure (comparable to Orsted's $30B valuation), strategic acquisition by energy majors or sovereign wealth funds, REIT conversion for the real estate portfolio, or long-term dividend yields of 8-12% annually. The infrastructure nature provides stable, predictable returns.
+            </div>
+        </div>
+        
+        <div class="faq-item" onclick="toggleFAQ(this)">
+            <div class="faq-question">
+                How do you handle construction in Iceland's climate?
+                <span>+</span>
+            </div>
+            <div class="faq-answer">
+                Iceland has 90+ years of experience building in Arctic conditions. We use proven techniques: reinforced foundations for volcanic soil, geothermal heating for year-round construction, prefabricated components manufactured off-site, and summer intensification for major works. Our construction partners have delivered 500+ projects in Iceland.
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team">
+        <h2>Leadership Team</h2>
+        <p class="section-intro">Experienced operators building the future of sustainable cities</p>
+        
+        <div class="team-grid">
+            <div class="team-member">
+                <div class="member-photo">TBA</div>
+                <h3>CEO</h3>
+                <p>To Be Announced</p>
+                <p style="color: #64748b; font-size: 0.875rem;">Hiring in progress - targeting energy infrastructure veteran with €1B+ project experience</p>
+            </div>
+            
+            <div class="team-member">
+                <div class="member-photo">TBA</div>
+                <h3>CTO</h3>
+                <p>To Be Announced</p>
+                <p style="color: #64748b; font-size: 0.875rem;">Seeking geothermal engineering expert with Iceland deployment experience</p>
+            </div>
+            
+            <div class="team-member">
+                <div class="member-photo">TBA</div>
+                <h3>CFO</h3>
+                <p>To Be Announced</p>
+                <p style="color: #64748b; font-size: 0.875rem;">Infrastructure finance specialist with institutional fundraising track record</p>
+            </div>
+            
+            <div class="team-member">
+                <div class="member-photo">LD</div>
+                <h3>Founding Vision</h3>
+                <p>Luminous Dynamics</p>
+                <p style="color: #64748b; font-size: 0.875rem;">Consciousness-first technology collective originating the Terra Lumina concept</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download-section">
+        <h2>Investor Resources</h2>
+        <p>Download key documents to evaluate the opportunity</p>
+        
+        <div class="download-grid">
+            <a href="/executive-summary.pdf" class="download-item">
+                📄 Executive Summary (2 pages)
+            </a>
+            <a href="/pitch-deck.pdf" class="download-item">
+                📊 Pitch Deck (15 slides)
+            </a>
+            <a href="/financial-model.xlsx" class="download-item">
+                💰 Financial Model
+            </a>
+            <a href="/technical-feasibility.pdf" class="download-item">
+                🔬 Technical Study
+            </a>
+        </div>
+    </section>
+
+    <!-- Data Room CTA -->
+    <section id="data-room" style="background: var(--light); border-radius: 16px; padding: 3rem; text-align: center;">
+        <h2>Ready for Due Diligence?</h2>
+        <p class="section-intro">Access our complete data room with detailed financials, technical studies, and legal documents</p>
+        <a href="https://calendly.com/terra-lumina/data-room-access" class="btn btn-primary">Request Data Room Access</a>
+    </section>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/3547701234?text=Interested%20in%20Terra%20Lumina%20Series%20D" class="whatsapp-float" target="_blank">
+        💬
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/transparency">Transparency</a>
+            <a href="#contact">Contact</a>
+            <a href="/privacy">Privacy</a>
+            <a href="/terms">Terms</a>
+        </div>
+        <p>© 2024 Terra Lumina | Part of Luminous Dynamics</p>
+        <p style="opacity: 0.7; font-size: 0.875rem; margin-top: 1rem;">
+            Building energy-abundant cities where consciousness and capital unite
+        </p>
+    </footer>
+
+    <script>
+        function toggleFAQ(element) {
+            element.classList.toggle('active');
+            const span = element.querySelector('.faq-question span');
+            span.textContent = element.classList.contains('active') ? '−' : '+';
+        }
+        
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
