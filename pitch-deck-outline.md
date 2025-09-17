@@ -3,18 +3,18 @@
 
 ### Slide 1: Title
 **Terra Lumina**  
-Building Paradise with 2¢/kWh Energy  
-Pre-Seed Investment Opportunity | €500K-1M
+Building Paradise with $0.02/kWh Energy  
+Pre-Seed Investment Opportunity | $750K-1.5M
 
 ### Slide 2: The Problem
-- Energy costs killing economic growth (15-30¢/kWh globally)
+- Energy costs killing economic growth ($0.15-0.30/kWh globally)
 - Cities becoming unaffordable and unsustainable
 - Climate crisis demands new models
 - Current "green" solutions not economically viable
 
 ### Slide 3: The Solution
 **Terra Lumina**: Energy-abundant regenerative cities
-- 2¢/kWh infinite renewable energy
+- $0.02/kWh infinite renewable energy
 - Profitable from Day 1
 - Scalable global model
 - Where energy is free, humanity thrives
@@ -27,12 +27,12 @@ Pre-Seed Investment Opportunity | €500K-1M
 
 ### Slide 5: Business Model
 **Three Revenue Streams**:
-1. **Energy Sales**: Industrial customers at 8¢/kWh (300% margin)
+1. **Energy Sales**: Industrial customers at $0.08/kWh (300% margin)
 2. **Real Estate**: Energy-inclusive premium properties
 3. **Platform Licensing**: Replication rights to other regions
 
 ### Slide 6: Iceland Advantage
-- **2-3¢/kWh** geothermal energy (lowest on Earth)
+- **$0.02-0.03/kWh** geothermal energy (lowest on Earth)
 - **90+ years** proven operation
 - **100% renewable** grid already
 - **Stable democracy** with property rights
@@ -55,23 +55,23 @@ Pre-Seed Investment Opportunity | €500K-1M
 |-----------|----------|---------|
 | Platform Launch | Month 3 | Live platform |
 | First Projects | Month 6 | 5 projects listed |
-| First Investments | Month 9 | €1M committed |
-| Series A Ready | Month 18 | €10M platform volume |
+| First Investments | Month 9 | $1M committed |
+| Series A Ready | Month 18 | $10M platform volume |
 
-### Slide 10: Use of Funds (€500K-1M)
-- **40%** Platform Development (€200K)
-- **30%** Legal/Regulatory (€150K)
-- **20%** Team Building (€100-200K)
-- **10%** Marketing/Community (€50-100K)
+### Slide 10: Use of Funds ($750K-1.5M)
+- **40%** Platform Development ($300K)
+- **30%** Legal/Regulatory ($225K)
+- **20%** Team Building ($150-300K)
+- **10%** Marketing/Community ($75-150K)
 - **Reserve** for operations and contingency
 
 ### Slide 11: Competition
 | Competitor | Energy Cost | Renewable | Scalable |
 |------------|------------|-----------|----------|
-| NEOM | 6¢/kWh | 70% | Limited |
-| Singapore | 22¢/kWh | 3% | No |
-| Dubai | 8¢/kWh | 25% | Limited |
-| **Terra Lumina** | **2¢/kWh** | **100%** | **Yes** |
+| NEOM | $0.06/kWh | 70% | Limited |
+| Singapore | $0.22/kWh | 3% | No |
+| Dubai | $0.08/kWh | 25% | Limited |
+| **Terra Lumina** | **$0.02/kWh** | **100%** | **Yes** |
 
 ### Slide 12: Team
 - **CEO** (Hiring): Target ex-Orsted/NextEra executive
@@ -87,18 +87,18 @@ Pre-Seed Investment Opportunity | €500K-1M
 ✅ **Global Replication** (7 sites identified)
 
 ### Slide 14: The Ask
-- **Raising**: €500K-1M Pre-Seed
-- **Valuation**: €2-4M pre-money (negotiable)
+- **Raising**: $750K-1.5M Pre-Seed
+- **Valuation**: $3-6M pre-money (negotiable)
 - **Use**: Platform development and pilot projects
 - **Timeline**: Close Q1 2025, launch Q2 2025
-- **Path to Series A**: 18-24 months, €5-10M target
+- **Path to Series A**: 18-24 months, $7-15M target
 
 ### Slide 15: Vision
-**2025**: Break ground in Iceland  
-**2027**: First residents move in  
-**2030**: 10,000 residents, profitable  
-**2035**: 100,000 residents, €1B revenue  
-**2040**: 7 cities globally, new civilization model
+**2025**: Launch platform, first projects  
+**2026**: Series A, 20+ projects  
+**2028**: Series B, 100+ projects  
+**2030**: 500+ projects, $100M revenue  
+**2035**: IPO/Exit, global energy democracy achieved
 
 **Contact**: investors@terra.luminousdynamics.org
 

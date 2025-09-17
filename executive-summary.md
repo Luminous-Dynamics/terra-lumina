@@ -6,7 +6,7 @@ Terra Lumina is developing a revolutionary platform that democratizes energy inf
 
 ### Current Status
 - **Stage**: Pre-Seed
-- **Seeking**: €500K-1M initial funding
+- **Seeking**: $750K-1.5M initial funding
 - **Use of Funds**: Platform development, pilot projects, team building
 - **Path to Series A**: 18-24 months
 
@@ -22,14 +22,14 @@ Terra Lumina is developing a revolutionary platform that democratizes energy inf
 - Early investor returns
 
 **Phase 3**: Scale to Series A (Months 18-24)
-- €5-10M Series A target
+- $7-15M Series A target
 - 50+ projects in pipeline
 - Expansion to multiple markets
 
 ### The Platform Model
 1. **Terra Atlas**: Digital investment platform connecting investors to projects
 2. **Project Discovery**: AI-powered identification of renewable opportunities
-3. **Community Investment**: Enable investments from €10 to €10M
+3. **Community Investment**: Enable investments from $10 to $10M
 4. **Regenerative Exit**: 7-year path to community ownership
 
 ### Market Opportunity
@@ -45,21 +45,21 @@ Terra Lumina is developing a revolutionary platform that democratizes energy inf
 4. **Mission-Driven**: Luminous Chimera structure ensures long-term alignment
 5. **Scalable Model**: Software platform with minimal marginal costs
 
-### Pre-Seed Use of Funds (€500K-1M)
-- Platform Development: €200K
-- Legal/Regulatory: €150K
-- Team (6 months): €200K
-- Marketing/Community: €100K
-- Operations: €100K
-- Reserve: €150-250K
+### Pre-Seed Use of Funds ($750K-1.5M)
+- Platform Development: $300K
+- Legal/Regulatory: $225K
+- Team (6 months): $300K
+- Marketing/Community: $150K
+- Operations: $150K
+- Reserve: $225-375K
 
 ### Projected Milestones
 | Milestone | Timeline | Metric |
 |-----------|----------|---------|
 | Platform Launch | Month 3 | Live platform |
 | First Projects | Month 6 | 5 projects listed |
-| First Investments | Month 9 | €1M committed |
-| Series A Ready | Month 18 | €10M platform volume |
+| First Investments | Month 9 | $1M committed |
+| Series A Ready | Month 18 | $10M platform volume |
 
 ### The Team
 **Current**:
@@ -74,11 +74,11 @@ Terra Lumina is developing a revolutionary platform that democratizes energy inf
 
 ### Path to Series A (18-24 months)
 **Target Metrics for Series A**:
-- €10M+ investment volume on platform
+- $10M+ investment volume on platform
 - 100+ active investors
 - 20+ funded projects
 - 3 markets (US, EU, one other)
-- €500K annual platform revenue
+- $750K annual platform revenue
 
 ### Why Now?
 1. **Energy Crisis**: Global need for renewable investment
@@ -89,16 +89,16 @@ Terra Lumina is developing a revolutionary platform that democratizes energy inf
 
 ### Investment Terms
 - **Round**: Pre-Seed
-- **Target**: €500K-1M
-- **Valuation**: €2-4M (negotiable)
-- **Minimum**: €25K
+- **Target**: $750K-1.5M
+- **Valuation**: $3-6M (negotiable)
+- **Minimum**: $25K
 - **Type**: SAFE or Convertible Note
 - **Discount**: 20-30% on Series A
 
 ### Long-Term Vision (5-10 years)
-- **Series A**: €5-10M (2026)
-- **Series B**: €20-50M (2027)
-- **Series C**: €100M+ (2028)
+- **Series A**: $7-15M (2026)
+- **Series B**: $30-75M (2027)
+- **Series C**: $150M+ (2028)
 - **Exit Options**: IPO, acquisition, or community ownership
 
 ### Contact
@@ -108,6 +108,6 @@ Terra Lumina is developing a revolutionary platform that democratizes energy inf
 
 ---
 
-*"We're not raising €650M to build one city. We're raising €500K to build the platform that enables thousands of community-owned energy projects worldwide."*
+*"We're not raising $650M to build one city. We're raising $750K to build the platform that enables thousands of community-owned energy projects worldwide."*
 
 **Terra Lumina**: Democratizing Energy Investment, One Project at a Time
