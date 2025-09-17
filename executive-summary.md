@@ -1,95 +1,113 @@
 # Terra Lumina Executive Summary
-## Building Paradise with 2¢/kWh Energy in Iceland
+## Vision: Energy-Abundant Communities Through Democratic Investment
 
 ### The Opportunity
-Terra Lumina is developing the world's first energy-abundant regenerative city in Iceland, leveraging the planet's most affordable renewable energy to create a new model for human settlement that's both profitable and transformative.
+Terra Lumina is developing a revolutionary platform that democratizes energy infrastructure investment, starting with untapped renewable resources and building toward community-owned energy abundance.
 
-### The Economics
-- **Energy Cost**: 2-3¢/kWh (vs 15-30¢ globally)
-- **Target IRR**: 18-22% (conservative)
-- **Series D**: €650M (Q1 2025)
-- **Exit Value**: €3-5B (Year 7-10)
+### Current Status
+- **Stage**: Pre-Seed
+- **Seeking**: €500K-1M initial funding
+- **Use of Funds**: Platform development, pilot projects, team building
+- **Path to Series A**: 18-24 months
 
-### The Model
-**Phase 1**: Energy Infrastructure (Years 1-3)
-- 100MW geothermal expansion
-- Industrial anchor tenants (data centers, computing)
-- €180M revenue by Year 3
+### The Vision (Long-term)
+**Phase 1**: Platform Development (Months 1-12)
+- Terra Atlas investment platform launch
+- Initial project pipeline development
+- Community building and engagement
 
-**Phase 2**: City Development (Years 3-7)
-- 10,000 initial residents
-- Mixed-use sustainable development
-- Energy-inclusive housing model
+**Phase 2**: Pilot Projects (Months 12-24)
+- 3-5 demonstration projects
+- Proven investment model
+- Early investor returns
 
-**Phase 3**: Ecosystem Scaling (Years 5-10)
-- 100,000 residents
-- Replication to 7 global sites
-- Platform licensing revenue
+**Phase 3**: Scale to Series A (Months 18-24)
+- €5-10M Series A target
+- 50+ projects in pipeline
+- Expansion to multiple markets
+
+### The Platform Model
+1. **Terra Atlas**: Digital investment platform connecting investors to projects
+2. **Project Discovery**: AI-powered identification of renewable opportunities
+3. **Community Investment**: Enable investments from €10 to €10M
+4. **Regenerative Exit**: 7-year path to community ownership
+
+### Market Opportunity
+- **87,000** untapped dams in US alone
+- **$60B** immediate hydroelectric retrofit opportunity
+- **4M+** global renewable sites identified
+- **11-14%** target IRR for investors
 
 ### Competitive Advantages
-1. **Energy Arbitrage**: 90% cost advantage vs traditional cities
-2. **Proven Technology**: 90+ years of Iceland geothermal operation
-3. **Government Support**: Fast-track permitting, investment incentives
-4. **Anchor Tenants**: Microsoft, Google actively seeking Iceland data centers
-5. **Climate Haven**: Stable, renewable, disaster-resistant location
+1. **First-Mover**: No existing platform for democratic energy investment
+2. **Technology Ready**: Platform MVP already built and deployed
+3. **Data Advantage**: FERC, USACE databases integrated
+4. **Mission-Driven**: Luminous Chimera structure ensures long-term alignment
+5. **Scalable Model**: Software platform with minimal marginal costs
 
-### Use of Funds (€650M)
-- Geothermal Plant Expansion: €250M
-- Core Infrastructure: €200M  
-- Industrial Facilities: €100M
-- Residential Phase 1: €50M
-- Working Capital: €50M
+### Pre-Seed Use of Funds (€500K-1M)
+- Platform Development: €200K
+- Legal/Regulatory: €150K
+- Team (6 months): €200K
+- Marketing/Community: €100K
+- Operations: €100K
+- Reserve: €150-250K
 
-### Financial Projections (Conservative)
-| Year | Revenue | EBITDA | Cash Flow |
-|------|---------|---------|-----------|
-| 2025 | €20M | -€30M | -€180M |
-| 2026 | €65M | €5M | -€120M |
-| 2027 | €180M | €80M | €40M |
-| 2028 | €320M | €160M | €120M |
-| 2029 | €480M | €260M | €200M |
-
-### Risk Mitigation
-- **Technology Risk**: ✓ Proven (90+ years operation)
-- **Market Risk**: ✓ Pre-committed anchor tenants
-- **Regulatory Risk**: ✓ Government partnership secured
-- **Construction Risk**: ✓ Fixed-price contracts available
-- **Currency Risk**: ✓ Euro-denominated project
+### Projected Milestones
+| Milestone | Timeline | Metric |
+|-----------|----------|---------|
+| Platform Launch | Month 3 | Live platform |
+| First Projects | Month 6 | 5 projects listed |
+| First Investments | Month 9 | €1M committed |
+| Series A Ready | Month 18 | €10M platform volume |
 
 ### The Team
-Currently assembling world-class leadership:
-- **CEO**: Energy infrastructure veteran (hiring)
-- **CTO**: Geothermal engineering expert (hiring)
-- **CFO**: Infrastructure finance specialist (hiring)
-- **Advisors**: Iceland government, energy leaders
+**Current**:
+- Tristan Stoltz - Founder, Vision & Strategy
+- Claude Code Partnership - AI-assisted development
+- Advisory Network - Energy & finance experts (forming)
 
-### Comparable Exits
-- **Orsted**: $30B (renewable energy infrastructure)
-- **Brookfield Renewable**: $45B (clean energy assets)
-- **NextEra Energy**: $150B (renewable development)
-- **Pattern Energy**: $6.1B acquisition (2.8x revenue)
+**Hiring Priorities**:
+- CTO - Platform development lead
+- Head of Projects - Energy project sourcing
+- Head of Community - Investor relations
+
+### Path to Series A (18-24 months)
+**Target Metrics for Series A**:
+- €10M+ investment volume on platform
+- 100+ active investors
+- 20+ funded projects
+- 3 markets (US, EU, one other)
+- €500K annual platform revenue
 
 ### Why Now?
-1. **Energy Crisis**: Europe seeking energy independence
-2. **Climate Pressure**: Net-zero commitments driving demand
-3. **Remote Work**: Permanent shift to distributed living
-4. **Iceland Moment**: Government actively recruiting investment
-5. **Technology Ready**: All systems proven and scalable
+1. **Energy Crisis**: Global need for renewable investment
+2. **Retail Investment Boom**: Democratization of markets
+3. **Climate Urgency**: Massive capital needed for transition
+4. **Technology Ready**: Platform built, data available
+5. **Regulatory Tailwinds**: Government incentives increasing
 
 ### Investment Terms
-- **Round**: Series D
-- **Target**: €650M
-- **Valuation**: €1.5B pre-money
-- **Minimum**: €10M
-- **Close**: Q1 2025
+- **Round**: Pre-Seed
+- **Target**: €500K-1M
+- **Valuation**: €2-4M (negotiable)
+- **Minimum**: €25K
+- **Type**: SAFE or Convertible Note
+- **Discount**: 20-30% on Series A
+
+### Long-Term Vision (5-10 years)
+- **Series A**: €5-10M (2026)
+- **Series B**: €20-50M (2027)
+- **Series C**: €100M+ (2028)
+- **Exit Options**: IPO, acquisition, or community ownership
 
 ### Contact
-**Schedule a Call**: [calendly.com/terra-lumina](https://calendly.com/terra-lumina/investor-briefing)  
-**Email**: investors@terra.luminousdynamics.org  
-**Website**: terra.luminousdynamics.org
+**Email**: invest@luminousdynamics.org  
+**Platform Demo**: [atlas.luminousdynamics.io](https://atlas.luminousdynamics.io)  
+**Investment Deck**: Available upon request
 
 ---
 
-*"Where energy is abundant, humanity thrives. We're not just building a city – we're proving a new model for human civilization."*
+*"We're not raising €650M to build one city. We're raising €500K to build the platform that enables thousands of community-owned energy projects worldwide."*
 
-**Terra Lumina**: Energy Changes Everything
+**Terra Lumina**: Democratizing Energy Investment, One Project at a Time

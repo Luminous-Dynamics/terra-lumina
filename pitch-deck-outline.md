@@ -4,7 +4,7 @@
 ### Slide 1: Title
 **Terra Lumina**  
 Building Paradise with 2¢/kWh Energy  
-€650M Series D | Q1 2025
+Pre-Seed Investment Opportunity | €500K-1M
 
 ### Slide 2: The Problem
 - Energy costs killing economic growth (15-30¢/kWh globally)
@@ -39,31 +39,31 @@ Building Paradise with 2¢/kWh Energy
 - **Government support** secured
 
 ### Slide 7: Traction & Validation
-- **LOIs**: 3 data center operators (50MW committed)
-- **Government**: Fast-track approval granted
-- **Partners**: Mannvit Engineering, HS Orka confirmed
-- **Site**: 500 hectares secured near Reykjanes
-- **Permits**: Preliminary approval received
+- **Platform**: Terra Atlas MVP built and deployed
+- **Data**: 250+ demo projects, 11,547 FERC queue projects
+- **Technology**: 3D visualization, investment calculator ready
+- **Vision**: Clear path to profitability and scale
+- **Team**: Solo developer + AI achieving rapid progress
 
 ### Slide 8: Go-to-Market Strategy
 **Phase 1** (Years 1-3): Energy infrastructure + industrial  
 **Phase 2** (Years 3-5): Residential development  
 **Phase 3** (Years 5-10): Full city + replication
 
-### Slide 9: Financial Projections
-| Metric | Year 3 | Year 5 | Year 10 |
-|--------|--------|--------|---------|
-| Revenue | €180M | €480M | €1.2B |
-| EBITDA | €80M | €260M | €720M |
-| Residents | 1,000 | 10,000 | 100,000 |
-| ROI | 22% | 45% | 185% |
+### Slide 9: Pre-Seed Milestones
+| Milestone | Timeline | Metric |
+|-----------|----------|---------|
+| Platform Launch | Month 3 | Live platform |
+| First Projects | Month 6 | 5 projects listed |
+| First Investments | Month 9 | €1M committed |
+| Series A Ready | Month 18 | €10M platform volume |
 
-### Slide 10: Use of Funds (€650M)
-- **38%** Geothermal infrastructure
-- **31%** City core development
-- **15%** Industrial facilities
-- **8%** Residential Phase 1
-- **8%** Operations & reserves
+### Slide 10: Use of Funds (€500K-1M)
+- **40%** Platform Development (€200K)
+- **30%** Legal/Regulatory (€150K)
+- **20%** Team Building (€100-200K)
+- **10%** Marketing/Community (€50-100K)
+- **Reserve** for operations and contingency
 
 ### Slide 11: Competition
 | Competitor | Energy Cost | Renewable | Scalable |
@@ -87,11 +87,11 @@ Building Paradise with 2¢/kWh Energy
 ✅ **Global Replication** (7 sites identified)
 
 ### Slide 14: The Ask
-- **Raising**: €650M Series D
-- **Valuation**: €1.5B pre-money
-- **Use**: Full project funding to cash flow positive
-- **Timeline**: Close Q1 2025, break ground Q2
-- **Returns**: 18-22% IRR, 3-5x multiple
+- **Raising**: €500K-1M Pre-Seed
+- **Valuation**: €2-4M pre-money (negotiable)
+- **Use**: Platform development and pilot projects
+- **Timeline**: Close Q1 2025, launch Q2 2025
+- **Path to Series A**: 18-24 months, €5-10M target
 
 ### Slide 15: Vision
 **2025**: Break ground in Iceland  
