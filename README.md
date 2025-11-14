@@ -46,6 +46,13 @@ terra-lumina/
 ├── pitch-deck-outline.md         # Pitch deck structure
 ├── ONE-PAGER.md                  # Executive one-pager for quick sharing
 ├── FAQ.md                        # Comprehensive Q&A
+├── FINANCIAL-PROJECTIONS.md      # 5-year financial model
+├── COMPETITIVE-ANALYSIS.md       # Market landscape and positioning
+├── GO-TO-MARKET.md               # Customer acquisition strategy
+├── RISK-ANALYSIS.md              # Risk assessment and mitigation
+├── TEAM-EXPANSION.md             # Organization development plan
+├── METRICS-AND-KPIS.md           # Performance tracking framework
+├── TECHNICAL-ARCHITECTURE.md     # Platform architecture docs
 ├── ROADMAP.md                    # Product roadmap (Q1 2025-2030)
 ├── BRAND-GUIDELINES.md           # Brand and messaging guidelines
 ├── LAUNCH-CHECKLIST.md           # Launch preparation checklist
@@ -132,6 +139,15 @@ For GitHub Pages deployment, see [DEPLOY_INSTRUCTIONS.md](DEPLOY_INSTRUCTIONS.md
 - **[Executive Summary](executive-summary.md)** - Detailed business overview
 - **[Pitch Deck Outline](pitch-deck-outline.md)** - Investor presentation structure
 - **[Transparency Report](transparency.html)** - Monthly progress and metrics
+
+### Strategic Planning & Analysis
+- **[FINANCIAL-PROJECTIONS.md](FINANCIAL-PROJECTIONS.md)** - 5-year financial model and projections
+- **[COMPETITIVE-ANALYSIS.md](COMPETITIVE-ANALYSIS.md)** - Market landscape and positioning
+- **[GO-TO-MARKET.md](GO-TO-MARKET.md)** - Customer acquisition and growth strategy
+- **[RISK-ANALYSIS.md](RISK-ANALYSIS.md)** - Comprehensive risk assessment and mitigation
+- **[TEAM-EXPANSION.md](TEAM-EXPANSION.md)** - Organization development and hiring plan
+- **[METRICS-AND-KPIS.md](METRICS-AND-KPIS.md)** - Performance tracking framework
+- **[TECHNICAL-ARCHITECTURE.md](TECHNICAL-ARCHITECTURE.md)** - Platform architecture and tech stack
 
 ### For Team & Contributors
 - **[ROADMAP.md](ROADMAP.md)** - Product roadmap Q1 2025 through 2030
