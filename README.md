@@ -35,17 +35,32 @@ We're not raising $650M to build one city. We're raising $750K to build the plat
 
 ```
 terra-lumina/
-├── index.html              # Main landing page
-├── index-enhanced.html     # Alternative landing page version
-├── transparency.html       # Transparency report
-├── data-room.html          # Investor data room access
-├── roi-calculator.html     # Investment ROI calculator
-├── executive-summary.md    # Business executive summary
-├── pitch-deck-outline.md   # Pitch deck structure
-├── CONTRIBUTING.md         # Contribution guidelines
-├── LICENSE                 # Sacred Reciprocity License v4.0
-├── LICENSE-MIT            # MIT License (dual licensing)
-└── manifest.json          # PWA manifest
+├── index.html                    # Main landing page
+├── transparency.html             # Transparency report
+├── data-room.html                # Investor data room access
+├── roi-calculator.html           # Investment ROI calculator
+├── privacy.html                  # Privacy policy
+├── terms.html                    # Terms of service
+├── 404.html                      # Custom error page
+├── executive-summary.md          # Business executive summary
+├── pitch-deck-outline.md         # Pitch deck structure
+├── ONE-PAGER.md                  # Executive one-pager for quick sharing
+├── FAQ.md                        # Comprehensive Q&A
+├── ROADMAP.md                    # Product roadmap (Q1 2025-2030)
+├── BRAND-GUIDELINES.md           # Brand and messaging guidelines
+├── LAUNCH-CHECKLIST.md           # Launch preparation checklist
+├── CONTRIBUTING.md               # Contribution guidelines
+├── TESTING.md                    # QA and testing framework
+├── DEPLOY_INSTRUCTIONS.md        # Deployment guide
+├── SECURITY.md                   # Security disclosure policy
+├── CHANGELOG.md                  # Version history
+├── LICENSE                       # Sacred Reciprocity License v4.0
+├── LICENSE-MIT                   # MIT License (dual licensing)
+├── manifest.json                 # PWA manifest
+├── assets/                       # Visual assets (icons, logos, images)
+│   └── README.md                 # Asset creation guide
+└── .email-templates/             # Email templates
+    └── investor-response-template.md
 ```
 
 ## Technology Stack
@@ -108,6 +123,27 @@ For GitHub Pages deployment, see [DEPLOY_INSTRUCTIONS.md](DEPLOY_INSTRUCTIONS.md
 - [ ] Payment integration
 - [ ] Legal document automation
 - [ ] Community features
+
+## Documentation
+
+### For Investors
+- **[ONE-PAGER.md](ONE-PAGER.md)** - Quick executive summary (perfect for sharing)
+- **[FAQ.md](FAQ.md)** - Comprehensive answers to common questions
+- **[Executive Summary](executive-summary.md)** - Detailed business overview
+- **[Pitch Deck Outline](pitch-deck-outline.md)** - Investor presentation structure
+- **[Transparency Report](transparency.html)** - Monthly progress and metrics
+
+### For Team & Contributors
+- **[ROADMAP.md](ROADMAP.md)** - Product roadmap Q1 2025 through 2030
+- **[BRAND-GUIDELINES.md](BRAND-GUIDELINES.md)** - Brand identity and messaging
+- **[LAUNCH-CHECKLIST.md](LAUNCH-CHECKLIST.md)** - Comprehensive launch preparation
+- **[TESTING.md](TESTING.md)** - Quality assurance framework
+- **[DEPLOY_INSTRUCTIONS.md](DEPLOY_INSTRUCTIONS.md)** - Deployment guide
+- **[SECURITY.md](SECURITY.md)** - Security disclosure policy
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contribution guidelines
+
+### Email Templates
+- **[Investor Response Templates](.email-templates/investor-response-template.md)** - Professional investor communications
 
 ## Investment Opportunity
 
