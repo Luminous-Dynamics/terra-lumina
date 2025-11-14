@@ -1,7 +1,7 @@
 {
-  "name": "Terra Lumina - Energy-Abundant Cities",
+  "name": "Terra Lumina - Democratizing Energy Investment",
   "short_name": "Terra Lumina",
-  "description": "Building regenerative cities powered by infinite clean energy",
+  "description": "Investment platform connecting people to renewable energy projects worldwide",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0A0E27",
@@ -10,12 +10,16 @@
     {
       "src": "/assets/icon-192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "/assets/icon-512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
-  ]
+  ],
+  "categories": ["finance", "sustainability"],
+  "orientation": "portrait-primary"
 }

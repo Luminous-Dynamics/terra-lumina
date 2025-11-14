@@ -27,6 +27,42 @@
 
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#0066cc">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Terra Lumina",
+      "legalName": "Luminous Dynamics",
+      "url": "https://terra.luminousdynamics.org",
+      "logo": "https://terra.luminousdynamics.org/assets/logo.png",
+      "foundingDate": "2024",
+      "description": "Democratizing energy infrastructure investment through our platform connecting investors to renewable energy projects worldwide.",
+      "sameAs": [
+        "https://github.com/Luminous-Dynamics/terra-lumina"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "invest@luminousdynamics.org",
+        "contactType": "Investor Relations"
+      },
+      "keywords": "renewable energy investment, clean energy, infrastructure investment, pre-seed funding, sustainable investing, community-owned energy"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Terra Lumina",
+      "url": "https://terra.luminousdynamics.org",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://terra.luminousdynamics.org/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
     <style>
         :root {
             --primary: #1a73e8;

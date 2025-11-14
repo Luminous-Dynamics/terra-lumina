@@ -1,107 +1,151 @@
 # Terra Lumina Pitch Deck
-## 15-Slide Investor Presentation
+## 15-Slide Investor Presentation (Pre-Seed)
 
 ### Slide 1: Title
-**Terra Lumina**  
-Building Paradise with $0.02/kWh Energy  
-Pre-Seed Investment Opportunity | $750K-1.5M
+**Terra Lumina**
+Democratizing Energy Investment
+Pre-Seed Round | $750K-1.5M
 
 ### Slide 2: The Problem
-- Energy costs killing economic growth ($0.15-0.30/kWh globally)
-- Cities becoming unaffordable and unsustainable
-- Climate crisis demands new models
-- Current "green" solutions not economically viable
+- **$4 Trillion** needed for global energy transition
+- Individual investors excluded from infrastructure opportunities
+- Renewable projects struggle to find capital
+- Institutional minimums ($10M+) lock out 99% of investors
+- No platform connecting small investors to energy projects
 
 ### Slide 3: The Solution
-**Terra Lumina**: Energy-abundant regenerative cities
-- $0.02/kWh infinite renewable energy
-- Profitable from Day 1
-- Scalable global model
-- Where energy is free, humanity thrives
+**Terra Lumina**: Investment platform for renewable energy democracy
+- Invest from $100 to $10M in vetted renewable projects
+- Community-owned energy infrastructure
+- Transparent, accessible, mission-driven
+- 11-14% target IRR with positive impact
 
 ### Slide 4: Market Opportunity
-- **$2.5T** global energy market
-- **$7T** real estate development market
-- **100M** climate migrants by 2030
-- **1,000** corporations seeking net-zero locations
+- **87,000** untapped dams in US alone
+- **$60B** immediate hydroelectric retrofit opportunity
+- **4M+** global renewable sites identified
+- **$1.5T** annual renewable energy investment market
+- Growing demand for sustainable investment options
 
 ### Slide 5: Business Model
-**Three Revenue Streams**:
-1. **Energy Sales**: Industrial customers at $0.08/kWh (300% margin)
-2. **Real Estate**: Energy-inclusive premium properties
-3. **Platform Licensing**: Replication rights to other regions
+**Platform Revenue**:
+1. **Transaction Fees**: 2-3% on investments
+2. **Project Origination**: Success fees from developers
+3. **SaaS Subscriptions**: Premium features for investors
+4. **Data Services**: Market intelligence and analytics
 
-### Slide 6: Iceland Advantage
-- **$0.02-0.03/kWh** geothermal energy (lowest on Earth)
-- **90+ years** proven operation
-- **100% renewable** grid already
-- **Stable democracy** with property rights
-- **Government support** secured
+**Target**: $750K annual revenue by Month 18
+
+### Slide 6: Why Now?
+- **Energy Crisis**: Global renewable investment urgency
+- **Retail Investment Boom**: Democratization trend (Robinhood, Republic)
+- **Climate Awareness**: 73% want sustainable investments
+- **Regulatory Support**: SEC crowdfunding expanded
+- **Technology Ready**: Platform buildable with proven tech stack
 
 ### Slide 7: Traction & Validation
-- **Platform**: Terra Atlas MVP built and deployed
-- **Data**: 250+ demo projects, 11,547 FERC queue projects
-- **Technology**: 3D visualization, investment calculator ready
-- **Vision**: Clear path to profitability and scale
-- **Team**: Solo developer + AI achieving rapid progress
+- **Market Research**: $60B opportunity validated
+- **Data Pipeline**: FERC & USACE databases mapped
+- **Platform Design**: Terra Atlas architecture complete
+- **Team**: Founding team assembled
+- **Vision**: Clear path to scale and profitability
 
 ### Slide 8: Go-to-Market Strategy
-**Phase 1** (Years 1-3): Energy infrastructure + industrial  
-**Phase 2** (Years 3-5): Residential development  
-**Phase 3** (Years 5-10): Full city + replication
+**Phase 1** (Months 1-6): Platform MVP + first 5 projects
+**Phase 2** (Months 6-12): Scale to 20 projects, $10M volume
+**Phase 3** (Months 12-24): Multi-market expansion, Series A
+
+**Initial Focus**: Hydroelectric retrofits (proven tech, clear ROI)
 
 ### Slide 9: Pre-Seed Milestones
 | Milestone | Timeline | Metric |
 |-----------|----------|---------|
-| Platform Launch | Month 3 | Live platform |
-| First Projects | Month 6 | 5 projects listed |
-| First Investments | Month 9 | $1M committed |
-| Series A Ready | Month 18 | $10M platform volume |
+| Platform Launch | Month 3 | Live MVP |
+| First Projects Listed | Month 6 | 5 projects |
+| First $1M Invested | Month 9 | 100 investors |
+| Series A Ready | Month 18 | $10M volume |
 
 ### Slide 10: Use of Funds ($750K-1.5M)
-- **40%** Platform Development ($300K)
-- **30%** Legal/Regulatory ($225K)
-- **20%** Team Building ($150-300K)
-- **10%** Marketing/Community ($75-150K)
-- **Reserve** for operations and contingency
+- **30%** Platform Development ($300K)
+  - Web/mobile apps, payment systems, KYC/AML
+- **22.5%** Legal/Regulatory ($225K)
+  - Securities compliance, investor protections
+- **30%** Team (6 months) ($300K)
+  - CTO, Head of Projects, Head of Community
+- **15%** Marketing ($150K)
+  - User acquisition, content, events
+- **2.5%** Operations & Reserve ($150-375K)
 
 ### Slide 11: Competition
-| Competitor | Energy Cost | Renewable | Scalable |
-|------------|------------|-----------|----------|
-| NEOM | $0.06/kWh | 70% | Limited |
-| Singapore | $0.22/kWh | 3% | No |
-| Dubai | $0.08/kWh | 25% | Limited |
-| **Terra Lumina** | **$0.02/kWh** | **100%** | **Yes** |
+| Platform | Min Investment | Project Types | Mission-Driven |
+|----------|---------------|--------------|----------------|
+| Mosaic | $25K | Solar only | Partial |
+| Wunder Capital | $100K | Commercial | No |
+| Institutional Funds | $10M+ | All types | No |
+| **Terra Lumina** | **$100** | **All renewable** | **Yes** |
+
+**Our Advantage**: Lower minimums + broader scope + community ownership path
 
 ### Slide 12: Team
-- **CEO** (Hiring): Target ex-Orsted/NextEra executive
-- **CTO** (Hiring): Geothermal expert from Iceland
-- **Advisors**: Government ministers, energy leaders
-- **Partners**: Mannvit, HS Orka, Landsnet
+**Current**:
+- **Tristan Stoltz** - Founder, Vision & Strategy
+- **Luminous Dynamics** - Technology & Development
+
+**Hiring** (with Pre-Seed funds):
+- **CTO** - Platform engineering lead
+- **Head of Projects** - Energy project sourcing & diligence
+- **Head of Community** - Investor relations & growth
+
+**Advisors**: Energy finance experts, regulatory counsel (forming)
 
 ### Slide 13: Investment Highlights
-✅ **Proven Technology** (not experimental)  
-✅ **Government Support** (fast-track status)  
-✅ **Anchor Tenants** (revenue locked)  
-✅ **Infinite Resource** (geothermal)  
-✅ **Global Replication** (7 sites identified)
+✅ **First-Mover Advantage** - No true competitor in this space
+✅ **Proven Model** - Crowdfunding works (see Republic, Kickstarter)
+✅ **Massive Market** - $1.5T annual renewable investment
+✅ **Scalable Platform** - Software margins, minimal variable costs
+✅ **Mission Alignment** - Investors want impact + returns
 
 ### Slide 14: The Ask
 - **Raising**: $750K-1.5M Pre-Seed
+- **Structure**: SAFE or Convertible Note
+- **Discount**: 20-30% on Series A
 - **Valuation**: $3-6M pre-money (negotiable)
-- **Use**: Platform development and pilot projects
-- **Timeline**: Close Q1 2025, launch Q2 2025
-- **Path to Series A**: 18-24 months, $7-15M target
+- **Minimum**: $25K per investor
+- **Timeline**: Close Q1 2025
 
 ### Slide 15: Vision
-**2025**: Launch platform, first projects  
-**2026**: Series A, 20+ projects  
-**2028**: Series B, 100+ projects  
-**2030**: 500+ projects, $100M revenue  
-**2035**: IPO/Exit, global energy democracy achieved
+**2025**: Platform launch, first $1M invested
+**2026**: Series A ($7-15M), 100+ projects, $50M+ volume
+**2027**: Series B, multi-market expansion
+**2030**: $1B+ platform volume, thousands of community-owned projects
+**Exit**: IPO, strategic acquisition, or sustainable dividend model
 
-**Contact**: investors@terra.luminousdynamics.org
+*"We're not raising $650M to build one city. We're raising $750K to build the platform that enables thousands of community-owned energy projects worldwide."*
 
 ---
 
-*"The Stone Age didn't end because we ran out of stones. The Carbon Age won't end because we run out of carbon. It ends when we build something better."*
+**Contact**: invest@luminousdynamics.org
+**Website**: terra.luminousdynamics.org
+**Demo**: atlas.luminousdynamics.io
+
+---
+
+## Appendix: Key Metrics
+
+### Unit Economics
+- Average project size: $2-5M
+- Platform fee: 2.5% average
+- Revenue per project: $50-125K
+- Customer acquisition cost: $200 per investor
+- Lifetime value: $2,000+ per active investor
+
+### Path to Profitability
+- **Year 1**: 20 projects, $50M volume, $1.25M revenue (loss)
+- **Year 2**: 100 projects, $250M volume, $6.25M revenue (breakeven)
+- **Year 3**: 500 projects, $1B volume, $25M revenue (profitable)
+
+### Risk Mitigation
+- Regulatory: Working with specialized securities counsel
+- Project Quality: Multi-stage due diligence process
+- Platform Risk: Diversification across project types and regions
+- Market Risk: Multiple revenue streams beyond transaction fees
