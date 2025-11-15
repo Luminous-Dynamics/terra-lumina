@@ -58,6 +58,7 @@ terra-lumina/
 ├── ROADMAP.md                    # Product roadmap (Q1 2025-2030)
 ├── BRAND-GUIDELINES.md           # Brand and messaging guidelines
 ├── LAUNCH-CHECKLIST.md           # Launch preparation checklist
+├── PROJECT-VETTING.md            # Renewable project due diligence
 ├── CONTRIBUTING.md               # Contribution guidelines
 ├── TESTING.md                    # QA and testing framework
 ├── DEPLOY_INSTRUCTIONS.md        # Deployment guide
@@ -161,6 +162,9 @@ For GitHub Pages deployment, see [DEPLOY_INSTRUCTIONS.md](DEPLOY_INSTRUCTIONS.md
 - **[DEPLOY_INSTRUCTIONS.md](DEPLOY_INSTRUCTIONS.md)** - Deployment guide
 - **[SECURITY.md](SECURITY.md)** - Security disclosure policy
 - **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contribution guidelines
+
+### Operational Procedures
+- **[PROJECT-VETTING.md](PROJECT-VETTING.md)** - Renewable energy project due diligence framework
 
 ### Email Templates
 - **[Investor Response Templates](.email-templates/investor-response-template.md)** - Professional investor communications

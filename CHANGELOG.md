@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added (Phase 9: Project Operations & Execution - January 15, 2025)
+- **PROJECT-VETTING.md**: Comprehensive renewable energy project due diligence framework
+  - 5-stage evaluation process (Financial, Technical, Legal, ESG, Developer)
+  - 25 initial screening criteria with automatic rejection filters
+  - Detailed scoring matrices for each due diligence category
+  - Financial analysis (IRR, NPV, payback, revenue model, cost structure)
+  - Technical assessment (site evaluation, technology review, grid interconnection)
+  - Legal review (entity structure, site control, permits, contracts, compliance)
+  - ESG & impact scoring (environmental, social, governance, mission alignment)
+  - Developer assessment (track record, experience, financial strength)
+  - Investment Committee review process and decision framework
+  - Post-approval onboarding and ongoing monitoring procedures
+  - Rejection protocols with respectful feedback templates
+  - Continuous improvement framework with quarterly reviews
+  - Ready for day-one project evaluation
+
 ### Added (Phase 8: Operational Playbooks & Due Diligence - January 14, 2025)
 - **DATA-ROOM.md**: Comprehensive investor due diligence organization
   - 12 organized folders covering all investor materials (100+ documents)
