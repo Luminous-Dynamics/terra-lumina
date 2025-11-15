@@ -23,6 +23,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Continuous improvement framework with quarterly reviews
   - Ready for day-one project evaluation
 
+- **INVESTOR-ONBOARDING.md**: Complete investor journey and onboarding workflow
+  - 7-stage investor journey (Discovery → Interest → Education → Verification → First Investment → Engagement → Advocacy)
+  - Welcome email sequence (7 emails over 14 days) with templates
+  - KYC/AML verification procedures (identity, accreditation, sanctions screening)
+  - Complete investment process (7 steps from project selection to confirmation)
+  - Post-investment engagement strategies (quarterly reports, annual events, referral program)
+  - NPS tracking and conversion funnel metrics
+  - Operational procedures (daily/weekly/monthly/quarterly tasks)
+  - Troubleshooting guide for common issues
+  - Ready for day-one investor operations
+
 ### Added (Phase 8: Operational Playbooks & Due Diligence - January 14, 2025)
 - **DATA-ROOM.md**: Comprehensive investor due diligence organization
   - 12 organized folders covering all investor materials (100+ documents)

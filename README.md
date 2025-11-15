@@ -59,6 +59,7 @@ terra-lumina/
 ├── BRAND-GUIDELINES.md           # Brand and messaging guidelines
 ├── LAUNCH-CHECKLIST.md           # Launch preparation checklist
 ├── PROJECT-VETTING.md            # Renewable project due diligence
+├── INVESTOR-ONBOARDING.md        # Complete investor journey workflow
 ├── CONTRIBUTING.md               # Contribution guidelines
 ├── TESTING.md                    # QA and testing framework
 ├── DEPLOY_INSTRUCTIONS.md        # Deployment guide
@@ -165,6 +166,7 @@ For GitHub Pages deployment, see [DEPLOY_INSTRUCTIONS.md](DEPLOY_INSTRUCTIONS.md
 
 ### Operational Procedures
 - **[PROJECT-VETTING.md](PROJECT-VETTING.md)** - Renewable energy project due diligence framework
+- **[INVESTOR-ONBOARDING.md](INVESTOR-ONBOARDING.md)** - Complete investor journey and onboarding workflow
 
 ### Email Templates
 - **[Investor Response Templates](.email-templates/investor-response-template.md)** - Professional investor communications
