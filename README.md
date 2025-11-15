@@ -46,6 +46,7 @@ terra-lumina/
 ├── pitch-deck-outline.md         # Pitch deck structure
 ├── ONE-PAGER.md                  # Executive one-pager for quick sharing
 ├── PITCH-DECK.md                 # Complete investor pitch deck
+├── DATA-ROOM.md                  # Investor due diligence repository
 ├── FAQ.md                        # Comprehensive Q&A
 ├── FINANCIAL-PROJECTIONS.md      # 5-year financial model
 ├── COMPETITIVE-ANALYSIS.md       # Market landscape and positioning
@@ -137,6 +138,7 @@ For GitHub Pages deployment, see [DEPLOY_INSTRUCTIONS.md](DEPLOY_INSTRUCTIONS.md
 ### For Investors
 - **[ONE-PAGER.md](ONE-PAGER.md)** - Quick executive summary (perfect for sharing)
 - **[PITCH-DECK.md](PITCH-DECK.md)** - Complete investor pitch deck (15 slides + appendix)
+- **[DATA-ROOM.md](DATA-ROOM.md)** - Investor due diligence document repository
 - **[FAQ.md](FAQ.md)** - Comprehensive answers to common questions
 - **[Executive Summary](executive-summary.md)** - Detailed business overview
 - **[Pitch Deck Outline](pitch-deck-outline.md)** - Investor presentation structure
