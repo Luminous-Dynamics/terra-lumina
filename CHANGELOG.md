@@ -34,6 +34,37 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Troubleshooting guide for common issues
   - Ready for day-one investor operations
 
+- **COMPLIANCE-PROCEDURES.md**: Comprehensive regulatory compliance manual
+  - Complete regulatory framework (SEC, FINRA, FinCEN, CFPB, state regulators)
+  - Securities compliance (Reg CF, Reg D, Reg A+, Blue Sky laws)
+  - KYC/AML/CFT procedures (CIP, CDD, sanctions screening, transaction monitoring)
+  - SAR and CTR filing protocols with templates
+  - Data privacy compliance (GDPR, CCPA, state laws)
+  - Financial compliance (PCI DSS, tax reporting, escheatment)
+  - Consumer protection (TILA, FCRA, UDAAP)
+  - Energy regulatory compliance (FERC, PUCs, environmental)
+  - International compliance frameworks (EU, UK, emerging markets)
+  - Daily/weekly/monthly/quarterly compliance operations tasks
+  - Training programs and compliance culture guidelines
+  - Audit procedures and regulatory examination protocols
+  - Compliance technology stack and record retention schedules
+  - Ready for regulated operations and regulatory scrutiny
+
+- **CRISIS-MANAGEMENT.md**: Crisis response and communication protocols
+  - 4-level crisis classification system (Minor → Critical)
+  - 6 crisis categories (Technology, Financial, Regulatory, Reputational, Operational, External)
+  - Crisis Management Team (CMT) structure and activation procedures
+  - 5-phase response framework (Detection → Containment → Communication → Recovery → Analysis)
+  - Stakeholder-specific communication protocols (investors, regulators, media, employees)
+  - 6 detailed crisis scenario playbooks (data breach, outage, project failure, regulatory investigation, misconduct, social media)
+  - Media relations guidelines and spokesperson protocols
+  - Social media crisis response procedures
+  - Legal considerations and regulatory notification requirements
+  - Post-crisis trust rebuilding and reputation monitoring
+  - Crisis preparedness (quarterly simulations, pre-established vendor relationships)
+  - Complete template library (assessment briefs, contact lists, communications, board reports)
+  - Ready for crisis response and stakeholder management
+
 ### Added (Phase 8: Operational Playbooks & Due Diligence - January 14, 2025)
 - **DATA-ROOM.md**: Comprehensive investor due diligence organization
   - 12 organized folders covering all investor materials (100+ documents)

@@ -60,6 +60,8 @@ terra-lumina/
 ├── LAUNCH-CHECKLIST.md           # Launch preparation checklist
 ├── PROJECT-VETTING.md            # Renewable project due diligence
 ├── INVESTOR-ONBOARDING.md        # Complete investor journey workflow
+├── COMPLIANCE-PROCEDURES.md      # Regulatory compliance manual
+├── CRISIS-MANAGEMENT.md          # Crisis response protocols
 ├── CONTRIBUTING.md               # Contribution guidelines
 ├── TESTING.md                    # QA and testing framework
 ├── DEPLOY_INSTRUCTIONS.md        # Deployment guide
@@ -167,6 +169,8 @@ For GitHub Pages deployment, see [DEPLOY_INSTRUCTIONS.md](DEPLOY_INSTRUCTIONS.md
 ### Operational Procedures
 - **[PROJECT-VETTING.md](PROJECT-VETTING.md)** - Renewable energy project due diligence framework
 - **[INVESTOR-ONBOARDING.md](INVESTOR-ONBOARDING.md)** - Complete investor journey and onboarding workflow
+- **[COMPLIANCE-PROCEDURES.md](COMPLIANCE-PROCEDURES.md)** - Comprehensive regulatory compliance manual
+- **[CRISIS-MANAGEMENT.md](CRISIS-MANAGEMENT.md)** - Crisis response and communication protocols
 
 ### Email Templates
 - **[Investor Response Templates](.email-templates/investor-response-template.md)** - Professional investor communications
